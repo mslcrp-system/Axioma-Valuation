@@ -84,6 +84,10 @@ FORMATO DE RESPOSTA (JSON):
 
         const responseText = response.text;
 
+        if (!responseText) {
+            throw new Error('Empty response from Gemini API');
+        }
+
         // Try to extract JSON from response
         const jsonMatch = responseText.match(/\{[\s\S]*\}/);
         if (!jsonMatch) {

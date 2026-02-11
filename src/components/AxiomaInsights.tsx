@@ -19,7 +19,7 @@ export function AxiomaInsights({ inputs, results }: AxiomaInsightsProps) {
         setError(null);
         try {
             const text = await generateValuationReport(inputs, results);
-            setReport(text);
+            setReport(text || null);
         } catch (err: any) {
             setError(err.message || 'Erro ao gerar relatório.');
         } finally {

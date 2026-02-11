@@ -1,4 +1,4 @@
-import type { ValuationInputs, ValuationResult } from '../../types/valuation';
+import type { ValuationInputs, ValuationResult } from '../types/valuation';
 
 export const generateRecommendations = (inputs: ValuationInputs, results: ValuationResult) => {
     const recommendations: Array<{ title: string; impact: string; priority: number }> = [];
