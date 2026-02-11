@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#1a1a1a"/>
+  
+  <!-- Stylized "A" in gold -->
+  <path d="M 256 80 L 400 432 L 340 432 L 310 360 L 202 360 L 172 432 L 112 432 L 256 80 Z M 256 180 L 220 280 L 292 280 L 256 180 Z" fill="#D4AF37"/>
+  
+  <!-- Accent line -->
+  <rect x="200" y="360" width="112" height="8" fill="#D4AF37" opacity="0.6"/>
+</svg>

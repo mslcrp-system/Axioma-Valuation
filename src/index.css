@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+
+  --color-chumbo-50: #f8fafc;
+  --color-chumbo-100: #f1f5f9;
+  --color-chumbo-200: #e2e8f0;
+  --color-chumbo-300: #cbd5e1;
+  --color-chumbo-400: #94a3b8;
+  --color-chumbo-500: #64748b;
+  --color-chumbo-600: #475569;
+  --color-chumbo-700: #334155;
+  --color-chumbo-800: #1e293b;
+  --color-chumbo-900: #0f172a;
+  --color-chumbo-950: #020617;
+
+  --color-gold-50: #fefce8;
+  --color-gold-100: #fef9c3;
+  --color-gold-200: #fef08a;
+  --color-gold-300: #fde047;
+  --color-gold-400: #facc15;
+  --color-gold-500: #eab308;
+  --color-gold-600: #ca8a04;
+  --color-gold-700: #a16207;
+  --color-gold-800: #854d0e;
+  --color-gold-900: #713f12;
+  --color-gold-950: #422006;
+}
+
+@variant dark (.dark &);
+
+:root {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
